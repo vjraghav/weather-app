@@ -1,6 +1,9 @@
 #weather-application
 
-Movie applicaiton using angular 1.5.x, gulp and bootstrap 3.
+A simple weather applicaiton using angular 1.5.x, gulp and bootstrap 3.
+User can search current weather and forecast weather for next 5 days 
+for the searched city
+
 
 Getting Started
 
