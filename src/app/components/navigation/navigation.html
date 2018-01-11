@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default nav-custom">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Forecast</a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" ng-model="city" class="form-control" placeholder="City Name">
+            </div>
+            <button type="button" class="btn btn-default" ng-click="searchCurrentData()">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <ol class="breadcrumb">
+    <li><a class="active" ng-link="['Current']">Current</a></li>
+    <li><a ng-link="['Forecast']">Forecast</a></li>
+  </ol>

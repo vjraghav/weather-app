@@ -1,0 +1,19 @@
+<div class="card current-card default-padding mL-15 ng-scope col-xs-10 col-sm-3" ng-if="isCurrentData">
+    <h2 ng-bind="city" class="city"></h2>
+    <div class="temp-data">
+        <img class="card-image" ng-src={{weatherImage}} alt="weather" style="width:10%">
+        <span><b>{{temp}}</b></span> 
+    </div>
+        
+    <div class="weather-data">
+        <span><b>{{weather}}</b></span>
+        <div>
+            <span> {{minTemp}}</span> 
+            <span> {{maxTemp}}</span>
+            <span class="pull-right">
+                <i class="glyphicon glyphicon-tint"></i>
+                {{humidity}}%
+            </span>
+        </div>            
+    </div>
+</div>
